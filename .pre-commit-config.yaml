@@ -23,4 +23,3 @@ repos:
       - id: mypy
         # additional_dependencies:
         #   -
-        exclude: ^tests/
