@@ -1,1 +1,1 @@
-poetry install --no-root
+poetry install --with dev

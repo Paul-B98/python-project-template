@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "python-project-template"  # TODO
+name = "project_name"  # TODO
 description = "Template for python project"  # TODO
 version = "1.0.0"
 license = "MIT"
