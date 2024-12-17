@@ -1,2 +1,1 @@
-# python-project-template
-Template for python based projects
+# Python Project Template
