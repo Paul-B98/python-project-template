@@ -1,8 +1,10 @@
 version: '3.8'
 
 services:
-  project:
+  project:  # TODO change this to your project name
     container_name: project  # TODO change this to your project name
+    extra_hosts:
+      - host.docker.internal:host-gateway
     init: true
     build:
       context: ..
