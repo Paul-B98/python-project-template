@@ -6,7 +6,7 @@ on: push
 
 jobs:
   build:
-
+    # environment: project_name
     runs-on: ubuntu-latest
     strategy:
       matrix:
@@ -41,3 +41,9 @@ jobs:
       run: poetry run mypy .
     - name: Test with pytest
       run: poetry run pytest .
+
+    - name: Coveralls
+      env:
+        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
+      if: ${{ env.COVERALLS_REPO_TOKEN }}
+      run: poetry run coveralls
