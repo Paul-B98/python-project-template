@@ -1537,13 +1537,13 @@ test = ["mkdocs-d2-plugin", "mkdocs-include-markdown-plugin", "mkdocs-macros-tes
 
 [[package]]
 name = "mkdocs-material"
-version = "9.5.50"
+version = "9.6.0"
 description = "Documentation that simply works"
 optional = false
 python-versions = ">=3.8"
 files = [
-    {file = "mkdocs_material-9.5.50-py3-none-any.whl", hash = "sha256:f24100f234741f4d423a9d672a909d859668a4f404796be3cf035f10d6050385"},
-    {file = "mkdocs_material-9.5.50.tar.gz", hash = "sha256:ae5fe16f3d7c9ccd05bb6916a7da7420cf99a9ce5e33debd9d40403a090d5825"},
+    {file = "mkdocs_material-9.6.0-py3-none-any.whl", hash = "sha256:1f34ac83dcf50fddf32a322adae99006a80f27aef6d6683b1f44a689ff89170a"},
+    {file = "mkdocs_material-9.6.0.tar.gz", hash = "sha256:bf06aaf59d7ecc45d21b538af896f6d76013ab0d3ef1399457e5b10410107eb2"},
 ]
 
 [package.dependencies]
@@ -3500,4 +3500,4 @@ propcache = ">=0.2.0"
 [metadata]
 lock-version = "2.0"
 python-versions = "^3.13"
-content-hash = "815da1477be14c332aba6407f6aef6f512173610804ab8920ccd990d4a063b1e"
+content-hash = "cb20a4b3ff3230344ee59e6e8b217f6ad0e99fb60046d79cc1187a697d8e4dfd"
