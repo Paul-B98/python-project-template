@@ -23,7 +23,7 @@ Bugtracker = "https://github.com/Paul-B98/python-project-template"  # TODO
 python = "^3.13"
 
 [tool.poetry.group.dev.dependencies]
-mypy = "^1.14.1"
+mypy = "^1.15.0"
 pytest = "^8.0.2"
 coverage = "^7.6.10"
 pytest-cov = "^6.0.0"
