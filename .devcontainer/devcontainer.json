@@ -1,7 +1,7 @@
 {
-	"name": "Python project",
+	"name": "Django project",
 	"dockerComposeFile": "docker-compose.yml",
-	"service": "project",
+	"service": "django",
 	"workspaceFolder": "/workspaces",
 	"remoteUser": "vscode",
 	"mounts": [
@@ -22,7 +22,8 @@
 				"GitHub.copilot-chat",
 				"ms-vsliveshare.vsliveshare",
 				"GitHub.vscode-pull-request-github",
-				"github.vscode-github-actions"
+				"github.vscode-github-actions",
+				"redhat.vscode-yaml"
 			],
 			"settings": {
 				"[python]": {
