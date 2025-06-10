@@ -1,5 +1,7 @@
-site_name: project_name
+site_name: Python Project  # TODO change this to your project name
 docs_dir: docs
+copyright: Copyright &copy; 2023 Paul-B98 # TODO change this to your name
+
 nav:
   - Getting Started:
       - Package Overview: "getting_started/overview.md"
@@ -8,8 +10,6 @@ nav:
       - Contributing: "getting_started/contributing.md"
   # - User Guide:
   - API Reference: reference/
-
-copyright: Copyright &copy; 2023 Paul-B98
 
 theme:
   name: material
@@ -29,6 +29,7 @@ extra_css:
   - assets/css/code_select.css
   - assets/css/fonts.css
 
+# Plugins and Extensions
 markdown_extensions:
   - attr_list
   - pymdownx.highlight:
