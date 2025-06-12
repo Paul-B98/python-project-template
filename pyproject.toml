@@ -19,7 +19,7 @@ classifiers = [
 requires-python = ">=3.13"
 
 [project.urls]
-homepage = "https://github.com/Paul-B98/python-project-templat"  # TODO
+homepage = "https://github.com/Paul-B98/python-project-template"  # TODO
 repository = "https://github.com/Paul-B98/python-project-template"  # TODO
 changelog = "https://github.com/Paul-B98/python-project-template/releases"  # TODO
 issues = "https://github.com/Paul-B98/python-project-template/issues"  # TODO
