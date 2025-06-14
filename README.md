@@ -56,3 +56,6 @@ This project uses [arc42](https://docs.arc42.org/home/) to document the requirem
 1. [Quality Requirements](docs/arc/quality.md)
 1. [Risks and Technical Debt](docs/arc/risks.md)
 1. [Glossary](docs/arc/glossary.md)
+
+- https://www.conventionalcommits.org/en/v1.0.0/
+- https://adr.github.io/
