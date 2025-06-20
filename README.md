@@ -39,7 +39,7 @@ This is a template for creating Python projects. It includes a basic project str
 
 We follow the [Conventional Commits]() specification to maintain a consistent commit history and enable automated tooling for releases and changelogs.
 
-### Commit message format:
+#### Commit message format:
 ```
 Commit Message Format
 
@@ -50,7 +50,7 @@ Commit Message Format
 [optional footer(s)]
 ```
 
-### Common Types
+#### Common Types
 
 - feat: A new feature
 - fix: A bug fix
@@ -83,6 +83,6 @@ This project uses [arc42](https://docs.arc42.org/home/) to document the requirem
 1. [Risks and Technical Debt](docs/arc/risks.md)
 1. [Glossary](docs/arc/glossary.md)
 
-## Additional features
+### Additional features
 
 * [Dev Container Feature](https://containers.dev/features)
