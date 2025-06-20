@@ -41,17 +41,15 @@ Commit Message Format
 
 ### Common Types
 
-- feat: A new feature
-- fix: A bug fix
-- docs: Documentation only changes
-- style: Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.)
-- refactor: A code change that neither fixes a bug nor adds a feature
-- perf: A code change that improves performance
-- test: Adding or correcting tests
-- chore: Changes to the build process or auxiliary tools
-- infra: infrastructure ch
-
-
+- `feat`: A new feature
+- `fix`: A bug fix
+- `docs`: Documentation only changes
+- `style`: Changes that do not affect the meaning of the code (formatting, missing semicolons, etc.)
+- `refactor`: A code change that neither fixes a bug nor adds a feature
+- `perf`: A code change that improves performance
+- `test`: Adding or correcting tests
+- `chore`: Changes to the build process or auxiliary tools
+- `infra`: infrastructure ch
 
 ## Testing
 
