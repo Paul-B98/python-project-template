@@ -9,11 +9,11 @@ title: "Python Project Template"
 version: 0.0.1
 date-released: 2025-01-01
 license: MIT
+url: https://github.com/Paul-B98/python-project-template
+repository-code: https://github.com/Paul-B98/python-project-template
 identifiers:
 - type: url
   value: https://github.com/Paul-B98/python-project-template
-url: https://github.com/Paul-B98/python-project-template
-repository-code: https://github.com/Paul-B98/python-project-template
 keywords:
 - python
 - development
