@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: FAQ
+    url: https://github.com/Paul-B98/python-project-template/discussions
+    about: Please ask and answer questions here.
+  - name: Security Bug Bounty
+    url: https://github.com/Paul-B98/python-project-template/blob/main/.github/SECURITY.md
+    about: Please report security vulnerabilities here.
