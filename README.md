@@ -33,7 +33,9 @@ This is a template for creating Python projects. It includes a basic project str
     - Type `Remote-Containers: Reopen in Container` and select it.
     - VS Code will build the Docker container defined in the `.devcontainer` folder and open the project inside the container.
 
-## Contributing Guidelines
+## Contributing
+
+### Conventional Commits
 
 We follow the [Conventional Commits]() specification to maintain a consistent commit history and enable automated tooling for releases and changelogs.
 
@@ -61,10 +63,6 @@ Commit Message Format
 - infra: infrastructure changes
 - wip: work in progress
 
-## Additional features
-
-* [Dev Container Feature](https://containers.dev/features)
-
 ## Documentation
 
 Some documentation description
@@ -84,3 +82,7 @@ This project uses [arc42](https://docs.arc42.org/home/) to document the requirem
 1. [Quality Requirements](docs/arc/quality.md)
 1. [Risks and Technical Debt](docs/arc/risks.md)
 1. [Glossary](docs/arc/glossary.md)
+
+## Additional features
+
+* [Dev Container Feature](https://containers.dev/features)
