@@ -28,7 +28,7 @@ Use the included dev container to automatically install all the necessary dev to
 
 We follow the [Conventional Commits]() specification to maintain a consistent commit history and enable automated tooling for releases and changelogs.
 
-### Commit message format:
+### Commit message format
 ```
 Commit Message Format
 
