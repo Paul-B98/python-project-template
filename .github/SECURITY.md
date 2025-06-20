@@ -1,3 +1,4 @@
-# Security Policies
+# Security Policy
 
-TODO
+> [!NOTE]
+> Please add a security policy when using this template.
