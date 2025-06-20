@@ -11,7 +11,7 @@ This is a template for creating Python projects. It includes a basic project str
 - 📝 [Pre-commit](https://pre-commit.com/) hooks for code quality.
 - 📦 Uses [dev container](https://containers.dev/) development setup.
 - 🔎 Easy documentation with [MkDocs](https://containers.dev/).
-- 🧰 Integrated with GitHub Actions for CI/CD automation and other workflows.
+- 🧰 Integrated with [GitHub](https://docs.github.com/en) Actions for CI/CD automation and other workflows.
 
 ## Getting Started
 
