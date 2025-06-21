@@ -1228,6 +1228,7 @@ source = { editable = "." }
 [package.dev-dependencies]
 dev = [
     { name = "jupyter" },
+    { name = "jupyterlab" },
     { name = "mypy" },
     { name = "pytest" },
     { name = "pytest-cov" },
@@ -1249,6 +1250,7 @@ docs = [
 [package.metadata.requires-dev]
 dev = [
     { name = "jupyter", specifier = ">=1.1.1" },
+    { name = "jupyterlab", specifier = ">=4.4.3" },
     { name = "mypy", specifier = ">=1.16.0" },
     { name = "pytest", specifier = ">=8.4.0" },
     { name = "pytest-cov", specifier = ">=6.2.1" },
