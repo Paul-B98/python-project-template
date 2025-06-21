@@ -16,7 +16,7 @@ pip install project_name
 
 **With poetry**
 ```bash
-poetry add project_name
+uv add project_name
 ```
 
 ## Installing from Source
@@ -30,7 +30,7 @@ pip install git+https://github.com/Paul-B98/python-project-template
 
 **With poetry**
 ```bash
-poetry add git+https://github.com/Paul-B98/python-project-template
+uv add git+https://github.com/Paul-B98/python-project-template
 ```
 
 ## Dependencies
