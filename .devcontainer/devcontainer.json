@@ -1,5 +1,5 @@
 {
-	"name": "Python Python 3.13",
+	"name": "Python 3.13 Project",
 	"service": "python",
 	"remoteUser": "vscode",
 	"workspaceFolder": "/workspaces",
