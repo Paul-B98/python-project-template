@@ -14,7 +14,7 @@ The library can be installed from PyPI using various package managers.
 pip install project_name
 ```
 
-**With poetry**
+**With uv**
 ```bash
 uv add project_name
 ```
@@ -28,7 +28,7 @@ The library can be installed from source (GitHub).
 pip install git+https://github.com/Paul-B98/python-project-template
 ```
 
-**With poetry**
+**With uv**
 ```bash
 uv add git+https://github.com/Paul-B98/python-project-template
 ```
