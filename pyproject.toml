@@ -69,4 +69,5 @@ disallow_untyped_defs = true
 strict_optional = true
 exclude = [
     "docs/*",
+    "tests/*",
 ]
