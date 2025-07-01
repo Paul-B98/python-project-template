@@ -52,6 +52,7 @@ docs = [
 python_files = ["test_*.py", "*_test.py"]
 filterwarnings = ["ignore::DeprecationWarning"]
 pythonpath = ["src"]
+cache_dir = "/workspaces/.cache/pytest"
 addopts = [
     "--cov",
     "--cov-branch",
