@@ -29,7 +29,6 @@ coverage.xml
 .github
 .vscode
 .gitignore
-README.md
 
 # Tools
 .pre-commit-config
