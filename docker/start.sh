@@ -1,1 +1,3 @@
-uv run src/project_name/main.py
+source .venv/bin/activate
+
+python -m project_name.main
