@@ -1,0 +1,38 @@
+# Python
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.Python
+env
+pip-log.txt
+pip-delete-this-directory.txt
+.tox
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.log
+.mypy_cache
+.pytest_cache
+.hypothesis
+.venv
+
+# Git
+.git
+
+# Project
+.cache
+.devcontainer
+.github
+.vscode
+.gitignore
+README.md
+
+# Tools
+.pre-commit-config
+.ruff.toml
+CITATION.cff
+mkdocs.yml
