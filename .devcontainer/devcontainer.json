@@ -18,7 +18,8 @@
 			"userUid": "1000",
 			"userGid": "1000",
 			"upgradePackages": "true"
-		}
+		},
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
 	},
 	"customizations": {
 		"vscode": {
