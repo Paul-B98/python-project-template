@@ -18,7 +18,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked --no-editable
 
 # Final image stage
-FROM python:3.12-slim
+FROM python:3.13-slim-bookworm
 
 # Use Bash
 SHELL ["/bin/bash", "-c"]
