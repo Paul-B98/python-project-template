@@ -6,6 +6,10 @@ on:
   release:
     types: [published]
 
+env:
+  REGISTRY: ghcr.io
+  IMAGE_NAME: ${{ github.repository }}
+
 jobs:
   build:
     environment: cd-env
@@ -13,6 +17,11 @@ jobs:
     strategy:
       matrix:
         python-version: ["3.13"]  # Add more Python versions to test here
+    permissions:
+      contents: read
+      packages: write
+      attestations: write
+      id-token: write
 
     steps:
     - uses: actions/checkout@v5
@@ -46,6 +55,40 @@ jobs:
         uv build
         uv publish
 
+    # Build and push Docker image
+    - name: Log in to the Container registry
+      uses: docker/login-action@v5
+      with:
+        registry: ${{ env.REGISTRY }}
+        username: ${{ github.actor }}
+        password: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Docker metadata
+      id: meta
+      uses: docker/metadata-action@v3
+      with:
+        images: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME }}
+        tags: |
+          type=raw,value=latest,enable={{is_default_branch}}
+          type=pep440,pattern={{version}}
+
+    - name: Build and push Docker image
+      id: push
+      uses: docker/build-push-action@v6
+      with:
+        context: .
+        push: true
+        tags: ${{ steps.meta.outputs.tags }}
+        labels: ${{ steps.meta.outputs.labels }}
+
+    - name: Generate artifact attestation
+      uses: actions/attest-build-provenance@v2
+      with:
+        subject-name: ${{ env.REGISTRY }}/${{ env.IMAGE_NAME}}
+        subject-digest: ${{ steps.push.outputs.digest }}
+        push-to-registry: true
+
+    # Build and deploy Documentation
     - name: Install doc dependencies
       run: |
         uv install --group docs
