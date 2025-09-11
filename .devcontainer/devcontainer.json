@@ -40,7 +40,8 @@
 				"charliermarsh.ruff",
 				"tamasfe.even-better-toml",
 				"redhat.vscode-yaml",
-				"esbenp.prettier-vscode"
+				"esbenp.prettier-vscode",
+				"eamodio.gitlens"
 			]
 		}
 	}
