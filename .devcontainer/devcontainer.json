@@ -19,7 +19,10 @@
 			"userGid": "1000",
 			"upgradePackages": "true"
 		},
-		"ghcr.io/devcontainers/features/docker-in-docker:2": {}
+		"ghcr.io/devcontainers/features/docker-in-docker:2": {
+			"moby": false
+		},
+		"ghcr.io/devcontainers/features/node:1": {}
 	},
 	"customizations": {
 		"vscode": {
@@ -41,7 +44,8 @@
 				"tamasfe.even-better-toml",
 				"redhat.vscode-yaml",
 				"esbenp.prettier-vscode",
-				"eamodio.gitlens"
+				"eamodio.gitlens",
+				"Anthropic.claude-code"
 			]
 		}
 	}
