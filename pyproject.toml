@@ -16,7 +16,7 @@ classifiers = [
     "License :: OSI Approved :: MIT License",
     "Operating System :: OS Independent",
 ]
-requires-python = ">=3.13"
+requires-python = ">=3.14"
 
 [project.urls]
 homepage = "https://github.com/Paul-B98/python-project-template"  # TODO

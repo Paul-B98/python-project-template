@@ -85,7 +85,7 @@ The project uses **arc42** architecture documentation template located in `docs/
 
 The project is configured for development using:
 - **Dev Containers**: Full development environment in `.devcontainer/` with Docker
-- **Python 3.13**: Required Python version
+- **Python 3.14**: Required Python version
 - **uv**: Modern Python package and dependency manager
 - **GitHub Actions**: Automated CI/CD with testing, linting, type checking, and deployment
 

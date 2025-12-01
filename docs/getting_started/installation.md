@@ -3,7 +3,7 @@
 ## Requirements
 
 The supported Python versions for this Python library are the following:
-* 3.13
+* 3.14
 
 ## Installing from PyPI
 

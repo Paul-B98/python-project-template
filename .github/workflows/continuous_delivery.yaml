@@ -16,7 +16,7 @@ jobs:
     runs-on: ubuntu-latest
     strategy:
       matrix:
-        python-version: ["3.13"]  # Add more Python versions to test here
+        python-version: ["3.14"]  # Add more Python versions to test here
     permissions:
       contents: read
       packages: write
