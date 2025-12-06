@@ -7,7 +7,7 @@ import mkdocs_gen_files
 nav = mkdocs_gen_files.Nav()
 
 root = Path(__file__).parent.parent.parent
-src = root / "pyaki"
+src = root / "src"
 
 for path in sorted(src.rglob("*.py")):
     module_path = path.relative_to(src.parent).with_suffix("")
