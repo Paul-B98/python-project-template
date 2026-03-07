@@ -6,7 +6,7 @@ This is a template for creating Python projects. It includes a basic project str
 
 - 📁 Pre-configured with [uv](https://docs.astral.sh/uv/) for dependency management.
 - 🪛 Linting with [ruff](https://docs.astral.sh/ruff/).
-- 🔧 Type checking with [mypy](https://mypy-lang.org/).
+- 🔧 Type checking with [ty](https://docs.astral.sh/ty/).
 - 🧪 Testing with [pytest](https://docs.pytest.org/en/stable/).
 - 📝 [Pre-commit](https://pre-commit.com/) hooks for code quality.
 - 📦 Uses [dev container](https://containers.dev/) development setup.

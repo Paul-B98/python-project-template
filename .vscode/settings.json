@@ -10,9 +10,5 @@
             "source.organizeImports": "explicit"
         },
         "files.eol": "\n"
-    },
-    "mypy-type-checker.importStrategy": "fromEnvironment",
-    "mypy-type-checker.args": [
-        "--config-file=${workspaceFolder}/pyproject.toml"
-    ]
+    }
 }
