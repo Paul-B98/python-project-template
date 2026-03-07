@@ -28,13 +28,16 @@ jobs:
 
     - name: Install dependencies
       run: |
-        uv sync --all-groups
+        uv sync --all-groups --all-extras
 
     - name: Lint with ruff
+      working-directory: ./src
       run: uv run ruff check . --output-format=github
     - name: Check types with ty
+      working-directory: ./src
       run: uv run ty check . --output-format=github
     - name: Test with pytest
+      working-directory: ./src
       run: uv run pytest .
 
     - name: Coveralls
@@ -43,4 +46,5 @@ jobs:
       uses: coverallsapp/github-action@v2.3.7
 
     - name: Check docs
+      working-directory: ./src
       run: uv run mkdocs build
