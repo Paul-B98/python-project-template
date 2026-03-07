@@ -1,25 +1,26 @@
 # Build stage
-FROM ghcr.io/astral-sh/uv:python3.14-alpine AS builder
+FROM python:3.14-slim-bookworm AS builder
+COPY --from=ghcr.io/astral-sh/uv:latest /uv /uvx /bin/
 
 WORKDIR /app
 
-# Copy the project into the intermediate image
-ADD . /app
+COPY . /app
 
-# Sync the project
 RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --locked --no-editable --no-default-groups
 
-# Final image stage
-FROM python:3.14-alpine
 
-RUN addgroup -S app && adduser -S -G app app
+FROM python:3.14-slim-bookworm AS final
+
+RUN useradd --user-group --system --create-home --no-log-init app \
+    && mkdir -p /app \
+    && chown -R app:app /app
+
 USER app
-
 WORKDIR /app
 
+COPY --chown=app:app src/ /app
+COPY --chown=app:app docker/ /app
 COPY --from=builder --chown=app:app /app/.venv /app/.venv
-COPY src/ /app
-COPY docker/ /app
 
 CMD ["/bin/sh", "start.sh"]
