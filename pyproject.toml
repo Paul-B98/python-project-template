@@ -46,7 +46,7 @@ docs = [
     "mkdocs-literate-nav>=0.6.3",
     "mkdocs-macros-plugin>=1.5.0",
     "mkdocs-material>=9.7.6",
-    "mkdocs-section-index>=0.3.10",
+    "mkdocs-section-index>=0.3.11",
     "mkdocstrings-python>=2.0.3",
     "pymdown-extensions>=10.21.2",
 ]
