@@ -22,10 +22,6 @@
 		"ghcr.io/devcontainers/features/docker-in-docker:2": {
 			"moby": false
 		},
-		"ghcr.io/devcontainers/features/node:2": {
-			"nodeGypDependencies": false,
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/github-cli:1": {}
 	},
 	"customizations": {
@@ -46,8 +42,7 @@
 				"tamasfe.even-better-toml",
 				"redhat.vscode-yaml",
 				"esbenp.prettier-vscode",
-				"eamodio.gitlens",
-				"Anthropic.claude-code"
+				"eamodio.gitlens"
 			]
 		}
 	}
