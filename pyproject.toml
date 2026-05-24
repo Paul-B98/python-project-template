@@ -38,7 +38,7 @@ dev = [
     "pytest-random-order>=1.2.0",
     "pytest-recording>=0.13.4",
     "ruff>=0.15.13",
-    "ty>=0.0.34",
+    "ty>=0.0.37",
 ]
 
 [tool.uv]
