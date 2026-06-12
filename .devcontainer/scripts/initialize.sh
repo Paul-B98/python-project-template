@@ -1,1 +1,3 @@
-docker pull python:3.14
+cd .devcontainer
+docker compose pull
+cd -
