@@ -1,6 +1,5 @@
 services:
   python:  # TODO change this to your project name
-    container_name: python  # TODO change this to your project name
     extra_hosts:
       - host.docker.internal:host-gateway
     init: true
