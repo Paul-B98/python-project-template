@@ -37,7 +37,7 @@ dev = [
     "pytest-github-actions-annotate-failures>=0.4.2",
     "pytest-random-order>=1.2.0",
     "pytest-recording>=0.14.0",
-    "ruff>=0.16.10",
+    "ruff>=0.17.0",
     "ty>=0.0.85",
 ]
 
