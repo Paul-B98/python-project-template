@@ -42,9 +42,6 @@ dev = [
     "ty>=0.0.86",
 ]
 
-[tool.uv]
-exclude-newer = "P7D"
-
 [tool.pytest.ini_options]
 python_files = ["test_*.py", "*_test.py"]
 filterwarnings = ["ignore::DeprecationWarning"]
