@@ -1,6 +1,6 @@
 # Build stage
 FROM ghcr.io/astral-sh/uv:0.13.6 as uv
-FROM python:3.14.10-slim-trixie as builder
+FROM python:3.15.0-slim-trixie as builder
 COPY --from=uv /uv /uvx /bin/
 
 WORKDIR /app
@@ -11,7 +11,7 @@ RUN --mount=type=cache,target=/root/.cache/uv \
     uv sync --frozen --no-editable --no-default-groups
 
 
-FROM python:3.14.10-slim-trixie AS final
+FROM python:3.15.0-slim-trixie AS final
 
 RUN useradd --user-group --system --create-home --no-log-init app \
     && mkdir -p /app \
