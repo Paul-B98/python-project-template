@@ -39,7 +39,7 @@ dev = [
     "pytest-random-order>=1.2.0",
     "pytest-recording>=0.14.0",
     "ruff>=0.17.3",
-    "ty>=0.0.92",
+    "ty>=0.0.93",
 ]
 
 [tool.pytest.ini_options]
