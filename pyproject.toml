@@ -37,7 +37,7 @@ dev = [
     "pytest-cov>=7.1.0",
     "pytest-github-actions-annotate-failures>=0.4.2",
     "pytest-random-order>=1.2.0",
-    "pytest-recording>=0.14.0",
+    "pytest-recording>=0.14.1",
     "ruff>=0.17.3",
     "ty>=0.0.95",
 ]
